@@ -41,6 +41,11 @@ export default {
           icon: 'mdi-chart-bubble',
           title: 'Pos',
           to: '/pos'
+        },
+        {
+          icon: 'mdi-chart-bubble',
+          title: 'Goods',
+          to: '/list'
         }
       ],
       miniVariant: true,

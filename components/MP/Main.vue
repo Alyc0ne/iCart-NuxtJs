@@ -12,6 +12,9 @@
                 <li :class="{ navSidebarActive : this.$router.currentRoute.name === 'pos'}">
                   <nuxt-link to="/" :style="{ backgroundImage: 'url(' + require('@/assets/images/icon/icon-pos.png') + ')' }" class="icon-menu"></nuxt-link>
                 </li>
+                <li :class="{ navSidebarActive : this.$router.currentRoute.name === 'pos'}">
+                  <nuxt-link to="/" :style="{ backgroundImage: 'url(' + require('@/assets/images/icon/icon-pos.png') + ')' }" class="icon-menu"></nuxt-link>
+                </li>
                 <!-- <li>
                     <router-link to="dashboard/1">Unit</router-link>
                 </li> -->
